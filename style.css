@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 37, 37);
+}
+
+.buttons-container {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+}
